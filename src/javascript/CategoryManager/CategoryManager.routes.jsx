@@ -12,5 +12,5 @@ registry.add('route', 'categorymanager', {
     targets: ['nav-root-top'],
     path: ProfileConstants.ROUTE,
     defaultPath: ProfileConstants.ROUTE,
-    render: () => <IframeRenderer url={`${window.contextJsParameters.contextPath}/engines/manager.jsp?conf=categorymanager-anthracite&lang=${window.contextJsParameters.locale}`}/>
+    render: () => <IframeRenderer url={`${window.contextJsParameters.contextPath}/engines/manager.jsp?conf=categorymanager-anthracite&lang=${window.contextJsParameters.lang}`}/>
 });
