@@ -5,6 +5,8 @@ import CategoryManager from './CategoryManager';
 
 registry.add('primary-nav-item', 'categorymanagerNavGroup', {
     targets: ['nav-root-top:4'],
+    requiredPermission: 'categoryManager',
+    requiredPermissionPath: '/sites/systemsite',
     render: () => <CategoryManager/>
 });
 
@@ -12,5 +14,7 @@ registry.add('route', 'categorymanager', {
     targets: ['nav-root-top'],
     path: ProfileConstants.ROUTE,
     defaultPath: ProfileConstants.ROUTE,
+    requiredPermission: 'categoryManager',
+    requiredPermissionPath: '/sites/systemsite',
     render: () => <IframeRenderer url={`${window.contextJsParameters.contextPath}/engines/manager.jsp?conf=categorymanager-anthracite&lang=${window.contextJsParameters.lang}`}/>
 });
