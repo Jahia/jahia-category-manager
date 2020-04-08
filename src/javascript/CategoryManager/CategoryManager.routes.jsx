@@ -11,7 +11,7 @@ registry.add('primary-nav-item', 'categorymanagerNavGroup', {
 });
 
 registry.add('route', 'categorymanager', {
-    targets: ['nav-root-top'],
+    targets: ['main'],
     path: ProfileConstants.ROUTE,
     defaultPath: ProfileConstants.ROUTE,
     requiredPermission: 'categoryManager',
