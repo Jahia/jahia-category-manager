@@ -12,5 +12,8 @@
 Jahia Category Manager
 ======================
 
-Category Manager for Jahia 8
+Menu entries for Categories Manager in Jahia 8
 
+## Open-Source
+
+Channels is an Open-Source module, you can find more details about Open-Source @ Jahia [in this repository](https://github.com/Jahia/open-source).
