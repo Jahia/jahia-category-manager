@@ -1,7 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
-import {PrimaryNavItem} from '@jahia/moonstone';
-import Tag from '@jahia/moonstone/dist/icons/Tag';
+import {PrimaryNavItem, Tag} from '@jahia/moonstone';
 import {useHistory} from 'react-router';
 import CMConstants from './CategoryManager.constants';
 
