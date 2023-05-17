@@ -47,7 +47,7 @@
     <properties>
         <jahia-module-type>system</jahia-module-type>
         <yarn.arguments>build:production</yarn.arguments>
-        <jahia-module-signature>MC0CFDGywYFsrnHOCmBJXOPFRpQ5O4HUAhUAiE8CkPsKzd8TE15tspFu2D4lSCw=</jahia-module-signature>
+        <jahia-module-signature>MCwCFBnXTxOGvOChBn6zvpaAtXcrPzLfAhRkb3V9HC/M76ON1/hw8WO8uVvAVw==</jahia-module-signature>
     </properties>
 
     <repositories>
