@@ -4,12 +4,12 @@ import {PrimaryNavItem, Tag} from '@jahia/moonstone';
 import {useHistory} from 'react-router';
 import CMConstants from './CategoryManager.constants';
 
-const CategoryManager = () => {
+const CategoryManager = props => {
     const history = useHistory();
     const {t} = useTranslation('jahia-category-manager');
 
     return (
-        <PrimaryNavItem role="category-manager-menu-item"
+        <PrimaryNavItem {...props}
                         icon={<Tag/>}
                         label={t('label')}
                         isSelected={history.location.pathname.startsWith(CMConstants.ROUTE)}
